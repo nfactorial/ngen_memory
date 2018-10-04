@@ -23,6 +23,7 @@
 ////////////////////////////////////////////////////////////////////////////
 
 inline void* operator new(size_t count, ngen::memory::Heap *heap) {
+    // just a test for staging bot
     return heap->alloc(count);
 }
 
