@@ -9,6 +9,8 @@
 namespace {
     std::atomic<size_t> allocationId;
 
+    const size_t an_example_merge = 4;
+
     const size_t DEFAULT_ALIGNMENT = 4;
     const size_t MAXIMUM_ALIGNMENT = 128;
 
